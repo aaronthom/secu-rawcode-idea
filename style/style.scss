@@ -1,0 +1,44 @@
+@import 'about';
+@import 'accessControl';
+@import 'alarmSystem';
+@import 'contact';
+@import 'cylinderLock';
+@import 'doorSafety';
+@import 'footer';
+@import 'header';
+@import 'index';
+@import 'keyframes';
+@import 'timeClock';
+@import 'timeTracking';
+
+
+:root {
+    --clr-blue: #007fbe;
+    --clr-orange: #f39307;
+    --clr-white: #fcfeff;
+    --clr-txt: #181816;
+    --clr-shadow: #7e878b;
+
+    --ff-primary: 'Roboto', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-primary);
+    font-weight: 300;
+}
+
+
+@media (max-width: 187px) {
+    body {
+        min-width: 180%;
+    }
+}
+
+//Sorry for not making a own file for the media-queries. I already started with them below each elememt so it should be easy to find them eitherway.
+
+
+

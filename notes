@@ -1,0 +1,39 @@
+
+#todo:
+    html-sites:
+    -Home
+    -About
+    -Downloads (with the download attribute and all the programs)
+    -Kontakt
+    -Produktüberblick (Unser Angebot)
+    -Impressum
+    -Disclaimer
+    -Datenschutz
+    -NovaLite
+    -NovaTime
+    -Modul Übersicht
+    -Time Box
+    -Time Box X4
+    -Time Box X4 mit Fingerprint
+    -nicht rechnende Stempeluhren
+    -rechnende Stempeluhren
+    -Werkstattstempler
+    -Digitale Schließzylinder
+    -Türsicherheit
+    -Fenstersicherung
+    -Funk-Alarm System D18
+    -Funk-Alarm System D22
+    -Schließanlagen
+    -Gleichschließung
+    -Einzelschließung
+
+    Neuer Content:
+    -neueres Handy als Display
+    -ansprechendere Produktbilder
+    -NovaTime Innendesign überarbeiten?? -neuere NovaTime Version?
+    
+    Probleme:
+    -der Footer hat einige Bugs und funktioniert ab ca. 280px nicht mehr... möglicherweise neu schreiben, ich finde den Fehler nicht
+
+    Ideen:
+    -TimeLine in der about.html mit Button-right (Start bei der Firmengründung bis heute) (als slidesho gallery)
