@@ -30,46 +30,29 @@
             margin: 20px;
             .link:nth-child(1) {
                 text-decoration: none;
-                margin: 6px;
+                margin: 10px;
                 color: var(--clr-txt);
                 box-shadow: 0px 0px 10px rgb(255, 255, 255);
                 font-weight: 300;
                 font-size: 1.1rem;
-                background: linear-gradient(-45deg, #d3d3d3, #ffffff, #ebebeb, #ffffff);
-                background-size: 180% 360%;
-                animation: background 8s ease infinite;
+                background:var(--clr-white);
+                background-size: 180% 360;
                 padding: 12px 26px;
                 margin-top: 20px;
                 border-radius: 2px;
-            }
-            .link:nth-child(1):hover {
-                transition: 300ms;
-                background: linear-gradient(-45deg, #3370be, #e8ebee, #d0efff, #e9eaeb);
-                color: var(--clr-txt);
-                box-shadow: 0px 0px 10px 1px var(--clr-white);
-                background-size: 180% 360%;
-                animation: background 5s ease infinite;
             }
             .link:nth-child(2) {
                 text-decoration: none;
                 margin: 6px;
                 color: var(--clr-txt);
                 box-shadow: 0px 0px 10px rgb(243, 243, 243);
+                background:var(--clr-white);
                 font-weight: 300;
                 font-size: 1.1rem;
                 background-size: 180% 360%;
-                animation: background 8s ease infinite;
                 padding: 12px 26px;
                 margin-top: 20px;
                 border-radius: 2px;
-            }
-            .link:nth-child(2):hover {
-                transition: 300ms;
-                background: linear-gradient(-45deg, #3370be, #e8ebee, #d0efff, #e9eaeb);
-                color: var(--clr-txt);
-                box-shadow: 0px 0px 10px 1px var(--clr-white);
-                background-size: 180% 360%;
-                animation: background 5s ease infinite;
             }
         }
 
