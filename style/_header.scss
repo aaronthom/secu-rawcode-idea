@@ -13,7 +13,7 @@
         margin-top: 8px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row;
         padding: 0 24px;
         .navBranding {
@@ -113,14 +113,13 @@
                 gap: 0;
                 top: 5.5rem;
                 width: 100%;
-                text-align: center;
                 background-color: rgba(#ffffff, 0.97);
                 color: var(--clr-blue);
+                text-align: center;
                 transition: 0.5s;
                 .navItem {
-                    width: 160px;
-                    padding: 2px 20px;
-                    background-color: rgba(#007fbe, 0.2);
+                    width: 120px;
+                    border-bottom: 1px black solid;
                     .navLink {
                         color: var(--clr-txt);
                     }
@@ -156,10 +155,9 @@
             .navMenuFirst {
                 position: fixed;
                 display: flex;
-                align-items: center;
                 left: -100%;
-                top: 5.5rem;
                 gap: 0;
+                top: 5.5rem;
                 flex-direction: column;
                 color: var(--clr-blue);
                 width: 100%;
@@ -167,9 +165,8 @@
                 text-align: center;
                 transition: 0.3s;
                 .navItem {
-                    width: 160px;
-                    padding: 2px 20px;
-                    background-color: rgba(#f39307, 0.2);
+                    width: 120px;
+                    border-bottom: 1px black solid;
                     .navLink {
                         color: var(--clr-txt);
                     }
@@ -181,21 +178,17 @@
             .navMenuSecond {
                 position: fixed;
                 display: flex;
-                align-items: center;
                 flex-direction: column;
                 right: -100%;
                 gap: 0;
-                top: 26.5rem;
-                width: 100%;
-                text-align: center;
-                background-color: rgba(#ffffff, 0.97);
+                top: 25.4rem;
+                width: 100%;   
                 color: var(--clr-white);
+                text-align: center;
                 transition: 0.3s;
                 .navItem {
-                    width: 160px;
-                    padding: 2px 20px;
-                    border: 1px solid;
-                    background-color: rgba(#007fbe, 0.2);
+                    width: 120px;
+                    border-bottom: 1px black solid;
                     .navLink {
                         color: var(--clr-txt);
                     }
