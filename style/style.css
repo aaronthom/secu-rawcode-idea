@@ -244,10 +244,10 @@
     font-size: 0.8rem;
   }
   .footer .footerSecond .copyright .impDiscDat {
-    gap: 10px;
+    gap: 0px;
   }
   .footer .footerSecond .copyright .impDiscDat li {
-    margin: 20px;
+    margin: 2px;
   }
   .footer .footerSecond .copyright .impDiscDat li a {
     font-size: 0.8rem;
@@ -1070,37 +1070,51 @@
 }
 
 .mainTimeTracking .showcase .linkContainer {
-  margin: 20px;
+  margin: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
 }
 
 .mainTimeTracking .showcase .linkContainer .link:nth-child(1) {
   text-decoration: none;
+  text-align: center;
   margin: 10px;
+  width: 160px;
+  height: 50px;
   color: var(--clr-txt);
-  -webkit-box-shadow: 0px 0px 10px white;
-          box-shadow: 0px 0px 10px white;
   font-weight: 300;
   font-size: 1.1rem;
   background: var(--clr-white);
-  background-size: 180% 360;
-  padding: 12px 26px;
-  margin-top: 20px;
   border-radius: 2px;
+  padding-top: 14px;
+}
+
+.mainTimeTracking .showcase .linkContainer .link:nth-child(1) i {
+  color: var(--clr-txt);
 }
 
 .mainTimeTracking .showcase .linkContainer .link:nth-child(2) {
   text-decoration: none;
-  margin: 6px;
+  text-align: center;
+  margin: 10px;
+  width: 160px;
+  height: 50px;
   color: var(--clr-txt);
-  -webkit-box-shadow: 0px 0px 10px #f3f3f3;
-          box-shadow: 0px 0px 10px #f3f3f3;
   background: var(--clr-white);
   font-weight: 300;
   font-size: 1.1rem;
-  background-size: 180% 360%;
-  padding: 12px 26px;
-  margin-top: 20px;
   border-radius: 2px;
+  padding-top: 14px;
+}
+
+.mainTimeTracking .showcase .linkContainer .link:nth-child(2) i {
+  color: var(--clr-txt);
 }
 
 @media (max-width: 700px) {
@@ -1133,51 +1147,54 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  margin: 50px;
+}
+
+.mainTimeTracking .novaTime .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid var(--clr-white);
-  border-radius: 20px;
-  -webkit-box-shadow: -2px 0px 10px 0px #d3d4d6;
-          box-shadow: -2px 0px 10px 0px #d3d4d6;
-  margin: 20px 10px;
+  gap: 160px;
+  -webkit-box-shadow: 0px 0px 1px var(--clr-white);
+          box-shadow: 0px 0px 1px var(--clr-white);
+  width: 100%;
 }
 
-.mainTimeTracking .novaTime img {
-  max-width: 30%;
-  margin: 10px;
+.mainTimeTracking .novaTime .container .textBox {
+  width: 30%;
 }
 
-.mainTimeTracking .novaTime .textContainer {
-  max-width: 60%;
-  margin: 10px;
+.mainTimeTracking .novaTime .container .textBox .heading {
+  font-weight: 900;
+  font-size: 2rem;
 }
 
-.mainTimeTracking .novaTime .textContainer .heading {
-  text-align: center;
+.mainTimeTracking .novaTime .container .textBox .text {
+  font-size: 1.4rem;
 }
 
-.mainTimeTracking .novaTime .textContainer .text {
-  max-width: 100%;
-  text-align: center;
-}
-
-@media (max-width: 450px) {
-  .mainTimeTracking .novaTime {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .mainTimeTracking .novaTime img {
-    max-width: 60%;
-  }
-  .mainTimeTracking .novaTime .textContainer .text {
-    display: none;
-  }
+.mainTimeTracking .novaTime .container img {
+  height: 400px;
+  width: 36%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 :root {
@@ -1196,5 +1213,6 @@
           box-sizing: border-box;
   font-family: var(--ff-primary);
   font-weight: 300;
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=style.css.map */

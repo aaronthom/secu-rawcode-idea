@@ -19,7 +19,9 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap"
         rel="stylesheet">
     <link rel="icon" href="/style/images/fav.png" type="image/icon type">
-    <script src="/app/main.js"></script>
+    <link rel="icon" href="/style/images/fav.png" type="image/icon type">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Zeiterfassung - secutimetec GmbH</title>
 </head>
 
@@ -80,21 +82,40 @@
             <h1 class="heading">Unsere Lösungen rund um das Thema Zeiterfassung!</h1>
             <h2 class="mobileHeading">Rund um Zeiterfassung</h2>
             <div class="linkContainer">
-                <a href="#" class="link">NovaTime</a>
-                <a href="#" class="link">TimeBox</a>
+                <a href="#novaTimeID" class="link">NovaTime&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                <a href="#timeBoxID" class="link">TimeBox&nbsp;<i class="fa fa-cogs" aria-hidden="true"></i></a>
             </div>
         </div>
-        <div class="novaTime">
-            <img src="../style/img/arbeitsplatz_weitere_perspektive.jpg" alt="Arbeitsplatz, Computer">
-            <div class="textContainer">
-                <h2 class="heading">Zeiterfassung mit NovaTime!</h2>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum quia. Accusantium
-                    provident ipsa sapiente optio? Mollitia odit incidunt reiciendis. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Deserunt eos natus quibusdam corporis, tenetur perferendis sed facere
-                    possimus fugit ducimus.</p>
+        <div id="novaTimeID" class="novaTime">
+            <div class="container">
+                <img src="/style/images/Bildschirmterminal_large_4201.png" alt="Browserterminal">
+                <div class="textBox">
+                    <h2 class="heading">NovaTime Heading</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem perspiciatis
+                        magni. Molestiae id est necessitatibus, qui vero perspiciatis fugiat.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="textBox">
+                    <h2 class="heading">NovaTime Heading</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem perspiciatis
+                        magni. Molestiae id est necessitatibus, qui vero perspiciatis fugiat.</p>
+                </div>
+                <img src="/style/images/Workflow_Jahreskartei_large.png" alt="Browserterminal">
+            </div>
+            <div class="container">
+                <img src="/style/images/terminal-app-iPhone-large.png" alt="Browserterminal">
+                <div class="textBox">
+                    <h2 class="heading">NovaTime Heading</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem perspiciatis
+                        magni. Molestiae id est necessitatibus, qui vero perspiciatis fugiat.</p>
+                </div>
             </div>
         </div>
+        </div>
+        <div id="timeBoxID" class="timeBox"></div>
     </main>
+    <script src="/app/main.js"></script>
 </body>
 
 </html>

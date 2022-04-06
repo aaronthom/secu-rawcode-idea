@@ -28,32 +28,43 @@
             width: 80%;
         }
         .linkContainer {
-            margin: 20px;
+            margin: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            
             .link:nth-child(1) {
                 text-decoration: none;
+                text-align: center;
                 margin: 10px;
+                width: 160px;
+                height: 50px;
                 color: var(--clr-txt);
-                box-shadow: 0px 0px 10px rgb(255, 255, 255);
                 font-weight: 300;
                 font-size: 1.1rem;
                 background:var(--clr-white);
-                background-size: 180% 360;
-                padding: 12px 26px;
-                margin-top: 20px;
                 border-radius: 2px;
+                padding-top: 14px; 
+                i{
+                    color: var(--clr-txt);
+                }
             }
             .link:nth-child(2) {
                 text-decoration: none;
-                margin: 6px;
+                text-align: center;
+                margin: 10px;
+                width: 160px;
+                height: 50px;
                 color: var(--clr-txt);
-                box-shadow: 0px 0px 10px rgb(243, 243, 243);
                 background:var(--clr-white);
                 font-weight: 300;
                 font-size: 1.1rem;
-                background-size: 180% 360%;
-                padding: 12px 26px;
-                margin-top: 20px;
                 border-radius: 2px;
+                padding-top: 14px;
+                i{
+                    color: var(--clr-txt);
+                }
             }
         }
 
@@ -83,39 +94,40 @@
     }
     .novaTime {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        border: 1px solid var(--clr-white);
-        border-radius: 20px;
-        box-shadow: -2px 0px 10px 0px rgb(211, 212, 214);
-        margin: 20px 10px;
-        img {
-            max-width: 30%;
-            margin: 10px;
-        }
-        .textContainer {
-            max-width: 60%;
-            margin: 10px;
-            .heading {
-                text-align: center;
+        align-items: center;
+        gap: 40px;
+        margin: 50px;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 160px;
+            box-shadow: 0px 0px 1px var(--clr-white);
+            width: 100%;
+            .textBox {
+                width: 30%;
+                .heading {
+                    font-weight: 900;
+                    font-size: 2rem;
+                }
+                .text {
+                    font-size: 1.4rem;
+                }
             }
-            .text {
-                max-width: 100%;
-                text-align: center;
+            img {
+                height: 400px;
+                width: 36%;
+                object-fit: contain;
             }
         }
+       
     }
     @media (max-width: 450px) {
         .novaTime {
-            flex-direction: column;
-            img {
-                max-width: 60%;
-            }
-            .textContainer {
-                .text {
-                    display: none;
-                }
-            }
+           
         }
     }
 }
