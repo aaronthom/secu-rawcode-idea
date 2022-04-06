@@ -1172,13 +1172,14 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 160px;
-  -webkit-box-shadow: 0px 0px 1px var(--clr-white);
-          box-shadow: 0px 0px 1px var(--clr-white);
+  -webkit-box-shadow: 1px -1px 6px var(--clr-blue);
+          box-shadow: 1px -1px 6px var(--clr-blue);
   width: 100%;
 }
 
 .mainTimeTracking .novaTime .container .textBox {
   width: 30%;
+  text-align: justify;
 }
 
 .mainTimeTracking .novaTime .container .textBox .heading {
