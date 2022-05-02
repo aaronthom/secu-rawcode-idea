@@ -1,11 +1,12 @@
 .mainAccessControl {
+    overflow: hidden;
     .showcase {
         background-image: url(../style/images/arbeitszeiterfassung-4312250_1920.jpg);
         background-repeat: no-repeat;
         background-blend-mode: multiply;
-        background-color: rgba(#262626, 0.4);
+        background-color: rgba(#262626, 0.8);
         background-size: cover;
-        background-position: 0% 50%;
+        background-position: 0% 40%;
         height: 600px;
         max-width: 100vw;
         display: flex;
@@ -93,10 +94,9 @@
             font-size: 1.6rem;
         }
         .contact {
-            position: relative;
             font-size: 2rem;
-            align-self: flex-start;
-            left: 15%;
+            align-self: center;
+
             text-decoration: none;
             background: rgba(#007fbe, 0.8);
             border-radius: 200px;

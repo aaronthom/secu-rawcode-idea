@@ -1,5 +1,5 @@
 .footer {
-    //some problems with the footer
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
     background-color: rgba(#007fbe, 0.9);
@@ -86,7 +86,6 @@
             }
         }
         .copyright {
-     
             display: flex;
             flex-direction: column;
             align-items: center;

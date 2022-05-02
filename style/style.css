@@ -1,10 +1,15 @@
+@charset "UTF-8";
+.mainAccessControl {
+  overflow: hidden;
+}
+
 .mainAccessControl .showcase {
   background-image: url(../style/images/arbeitszeiterfassung-4312250_1920.jpg);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  background-color: rgba(38, 38, 38, 0.4);
+  background-color: rgba(38, 38, 38, 0.8);
   background-size: cover;
-  background-position: 0% 50%;
+  background-position: 0% 40%;
   height: 600px;
   max-width: 100vw;
   display: -webkit-box;
@@ -134,11 +139,9 @@
 }
 
 .mainAccessControl .textBox .contact {
-  position: relative;
   font-size: 2rem;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  left: 15%;
+  -ms-flex-item-align: center;
+      align-self: center;
   text-decoration: none;
   background: rgba(0, 127, 190, 0.8);
   border-radius: 200px;
@@ -205,7 +208,242 @@
      object-fit: contain;
 }
 
+.mainAlarmSystem {
+  overflow: hidden;
+}
+
+.mainAlarmSystem .showcase {
+  background-image: url(../style/img/einbrecher.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(38, 38, 38, 0.8);
+  background-size: cover;
+  background-position: 0% 20%;
+  height: 600px;
+  max-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainAlarmSystem .showcase .heading {
+  color: var(--clr-white);
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  font-size: 3rem;
+}
+
+.mainAlarmSystem .showcase .headingSecond {
+  color: var(--clr-white);
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  font-size: 1.4rem;
+}
+
+.mainAlarmSystem .showcase .mobileHeading {
+  display: none;
+  color: var(--clr-white);
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .mainAlarmSystem .showcase .heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainAlarmSystem .showcase .heading {
+    display: none;
+  }
+  .mainAlarmSystem .showcase .headingSecond {
+    display: none;
+  }
+  .mainAlarmSystem .showcase .mobileHeading {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainAlarmSystem .showcase {
+    height: 400px;
+    background-position: 50% 50%;
+  }
+}
+
+.mainCylinderLock {
+  overflow: hidden;
+}
+
+.mainCylinderLock .showcase {
+  background-image: url(../style/img/haus_schlüssel.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(38, 38, 38, 0.8);
+  background-size: cover;
+  background-position: 0% 50%;
+  height: 600px;
+  max-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainCylinderLock .showcase .heading {
+  color: var(--clr-white);
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  font-size: 3rem;
+}
+
+.mainCylinderLock .showcase .headingSecond {
+  color: var(--clr-white);
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  font-size: 1.4rem;
+}
+
+.mainCylinderLock .showcase .mobileHeading {
+  display: none;
+  color: var(--clr-white);
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .mainCylinderLock .showcase .heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainCylinderLock .showcase .heading {
+    display: none;
+  }
+  .mainCylinderLock .showcase .headingSecond {
+    display: none;
+  }
+  .mainCylinderLock .showcase .mobileHeading {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainCylinderLock .showcase {
+    height: 400px;
+    background-position: 50% 50%;
+  }
+}
+
+.mainDoorSafety {
+  overflow: hidden;
+}
+
+.mainDoorSafety .showcase {
+  background-image: url(../style/images/door_lock.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(38, 38, 38, 0.8);
+  background-size: cover;
+  background-position: 0% 50%;
+  height: 600px;
+  max-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainDoorSafety .showcase .heading {
+  color: var(--clr-white);
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  font-size: 3rem;
+}
+
+.mainDoorSafety .showcase .headingSecond {
+  color: var(--clr-white);
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  font-size: 1.4rem;
+}
+
+.mainDoorSafety .showcase .mobileHeading {
+  display: none;
+  color: var(--clr-white);
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .mainDoorSafety .showcase .heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainDoorSafety .showcase .heading {
+    display: none;
+  }
+  .mainDoorSafety .showcase .headingSecond {
+    display: none;
+  }
+  .mainDoorSafety .showcase .mobileHeading {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainDoorSafety .showcase {
+    height: 400px;
+    background-position: 50% 50%;
+  }
+}
+
 .footer {
+  overflow: hidden;
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 127, 190, 0.9);
@@ -445,8 +683,11 @@
   0% {
     color: var(--clr-white);
   }
-  50% {
+  70% {
     color: var(--clr-txt);
+  }
+  90% {
+    color: var(--clr-white);
   }
   100% {
     color: var(--clr-white);
@@ -457,8 +698,11 @@
   0% {
     color: var(--clr-white);
   }
-  50% {
+  70% {
     color: var(--clr-txt);
+  }
+  90% {
+    color: var(--clr-white);
   }
   100% {
     color: var(--clr-white);
@@ -908,7 +1152,7 @@
   margin-top: 0rem;
   gap: 1.5rem;
   grid-auto-columns: 1fr;
-      grid-template-areas: "one" "two" "three" "four" "five";
+      grid-template-areas: "one" "two" "three" "four" "five";
   padding-block: 2rem;
   margin-inline: auto;
 }
@@ -996,13 +1240,13 @@
 
 @media (min-width: 630px) {
   .main .gridContainer {
-        grid-template-areas: "one one" "two five" "three five" "four four";
+        grid-template-areas: "one one" "two five" "three five" "four four";
   }
 }
 
 @media (min-width: 1050px) {
   .main .gridContainer {
-        grid-template-areas: "one one two five" "three four four five";
+        grid-template-areas: "one one two five" "three four four five";
   }
 }
 
@@ -1153,19 +1397,26 @@
   0% {
     color: var(--clr-white);
   }
-  50% {
+  70% {
     color: var(--clr-txt);
+  }
+  90% {
+    color: var(--clr-white);
   }
   100% {
     color: var(--clr-white);
   }
 }
 
+.mainTimeTracking {
+  overflow: hidden;
+}
+
 .mainTimeTracking .showcase {
   background-image: url(../style/images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  background-color: rgba(38, 38, 38, 0.4);
+  background-color: rgba(38, 38, 38, 0.6);
   background-size: cover;
   background-position: 0% 90%;
   height: 600px;
