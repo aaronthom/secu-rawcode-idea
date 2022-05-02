@@ -72,6 +72,139 @@
   }
 }
 
+.mainAccessControl .textBoxFirst {
+  margin: 80px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainAccessControl .textBoxFirst .heading {
+  background: rgba(0, 127, 190, 0.8);
+  padding: 20px;
+  color: var(--clr-white);
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+
+.mainAccessControl .imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
+}
+
+.mainAccessControl .imgBox img {
+  width: 300px;
+  margin: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mainAccessControl .textBox {
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainAccessControl .textBox .heading {
+  font-size: 2.8rem;
+}
+
+.mainAccessControl .textBox .text {
+  margin: 20px;
+  font-size: 1.6rem;
+}
+
+.mainAccessControl .textBox .contact {
+  position: relative;
+  font-size: 2rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  left: 15%;
+  text-decoration: none;
+  background: rgba(0, 127, 190, 0.8);
+  border-radius: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainAccessControl .textBox .contact i {
+  font-size: 2rem;
+  color: var(--clr-white);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.mainAccessControl .textBox .contact span {
+  margin: 0px 10px;
+  font-weight: 400;
+}
+
+.mainAccessControl .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px 0;
+  gap: 100px;
+  width: 100%;
+}
+
+.mainAccessControl .container .textBox {
+  width: 30%;
+}
+
+.mainAccessControl .container .textBox .heading {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.mainAccessControl .container .textBox .text {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.mainAccessControl .container img:nth-child(1) {
+  width: 30%;
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mainAccessControl .container img:nth-child(2) {
+  width: 30%;
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .footer {
   height: 100vh;
   width: 100vw;

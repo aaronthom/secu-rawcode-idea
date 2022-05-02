@@ -26,7 +26,7 @@
             width: 80%;
             font-size: 1.4rem;
         }
-        .mobileHeading{
+        .mobileHeading {
             display: none;
             color: var(--clr-white);
             font-weight: 300;
@@ -36,9 +36,9 @@
         }
         @media (max-width: 700px) {
             .heading {
-                font-size:2rem;
+                font-size: 2rem;
             }
-        } 
+        }
         @media (max-width: 450px) {
             .heading {
                 display: none;
@@ -55,6 +55,94 @@
         .showcase {
             height: 400px;
             background-position: 50% 50%;
+        }
+    }
+    .textBoxFirst {
+        margin: 80px 0 0 0;
+        display: flex;
+        justify-content: center;
+        .heading {
+            background: rgba(#007fbe, 0.8);
+            padding: 20px;
+            color: var(--clr-white);
+            font-weight: 400;
+            font-size: 2.6rem;
+        }
+    }
+    .imgBox {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        img {
+            width: 300px;
+            margin: 30px;
+            object-fit: contain;
+        }
+    }
+    .textBox {
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .heading {
+            font-size: 2.8rem;
+        }
+        .text {
+            margin: 20px;
+            font-size: 1.6rem;
+        }
+        .contact {
+            position: relative;
+            font-size: 2rem;
+            align-self: flex-start;
+            left: 15%;
+            text-decoration: none;
+            background: rgba(#007fbe, 0.8);
+            border-radius: 200px;
+            width: 200px;
+            padding: 20px;
+            margin: 20px 0 0 0;
+            display: flex;
+            justify-content: center;
+            i {
+                font-size: 2rem;
+                color: var(--clr-white);
+                transition: 200ms ease-in-out;
+            }
+            span {
+                margin: 0px 10px;
+                font-weight: 400;
+            }
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin: 100px 0;
+        gap: 100px;
+        width: 100%;
+        .textBox {
+            width: 30%;
+
+            .heading {
+                font-size: 1.8rem;
+                font-weight: 900;
+            }
+            .text {
+                font-size: 1.4rem;
+                text-align: justify;
+            }
+        }
+        img:nth-child(1) {
+            width: 30%;
+            height: 400px;
+            object-fit: contain;
+        }
+        img:nth-child(2) {
+            width: 30%;
+            height: 400px;
+            object-fit: contain;
         }
     }
 }
