@@ -176,7 +176,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 100px 0;
-  gap: 100px;
+  gap: 50px;
   width: 100%;
 }
 
@@ -190,22 +190,24 @@
 }
 
 .mainAccessControl .container .textBox .text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: justify;
 }
 
 .mainAccessControl .container img:nth-child(1) {
   width: 30%;
   height: 400px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .mainAccessControl .container img:nth-child(2) {
   width: 30%;
   height: 400px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 40%;
+     object-position: 0 40%;
 }
 
 .mainAlarmSystem {
@@ -284,6 +286,50 @@
     height: 400px;
     background-position: 50% 50%;
   }
+}
+
+.mainAlarmSystem .textBoxFirst {
+  margin: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainAlarmSystem .textBoxFirst .heading {
+  background: rgba(0, 127, 190, 0.8);
+  padding: 20px;
+  color: var(--clr-white);
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+
+.mainAlarmSystem .alarmSystemContainer {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.mainAlarmSystem .alarmSystemContainer img {
+  width: 30%;
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mainAlarmSystem .alarmSystemContainer .textBox {
+  width: 40%;
 }
 
 .mainCylinderLock {
@@ -1152,7 +1198,7 @@
   margin-top: 0rem;
   gap: 1.5rem;
   grid-auto-columns: 1fr;
-      grid-template-areas: "one" "two" "three" "four" "five";
+      grid-template-areas: "one" "two" "three" "four" "five";
   padding-block: 2rem;
   margin-inline: auto;
 }
@@ -1240,13 +1286,13 @@
 
 @media (min-width: 630px) {
   .main .gridContainer {
-        grid-template-areas: "one one" "two five" "three five" "four four";
+        grid-template-areas: "one one" "two five" "three five" "four four";
   }
 }
 
 @media (min-width: 1050px) {
   .main .gridContainer {
-        grid-template-areas: "one one two five" "three four four five";
+        grid-template-areas: "one one two five" "three four four five";
   }
 }
 
@@ -1628,7 +1674,7 @@
 }
 
 .mainTimeTracking .timeBox .container .heading {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 .mainTimeTracking .timeBox .container img {
@@ -1671,12 +1717,12 @@
 
 .mainTimeTracking .timeBox .container:nth-child(1) .heading {
   font-size: 2rem;
+  padding: 10px;
 }
 
 .mainTimeTracking .timeBox .container:nth-child(1) .text {
-  text-align: justify;
   font-size: 1.6rem;
-  padding: 20px;
+  padding: 10px;
 }
 
 :root {

@@ -58,4 +58,33 @@
             background-position: 50% 50%;
         }
     }
+    .textBoxFirst {
+        margin: 40px 0 40px 0;
+        display: flex;
+        justify-content: center;
+        .heading {
+            background: rgba(#007fbe, 0.8);
+            padding: 20px;
+            color: var(--clr-white);
+            font-weight: 400;
+            font-size: 2.6rem;
+        }
+    }
+    .alarmSystemContainer {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+        padding: 20px;
+        img {
+            width: 30%;
+            height: 400px;
+            object-fit: contain;
+        }
+        .textBox {
+            width: 40%;
+            
+        }
+    }
 }
